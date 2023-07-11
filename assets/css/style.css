@@ -1204,6 +1204,28 @@ section {
   color: #4e4039;
 }
 
+#footer .footer-newsletter .social-links a {
+  font-size: 38px;
+  text-align: center;
+  display: inline-block;
+  color: #eb5d1e;
+  line-height: 0;
+  padding: 4px 0;
+  margin-right: 8px;
+  margin-top: 12px;
+  border-radius: 50%;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  transition: 0.3s;
+}
+
+#footer .footer-newsletter .social-links a:hover {
+  background: #eb5d1e;
+  color: #fff;
+  text-decoration: none;
+}
+
 #footer .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
