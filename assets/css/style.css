@@ -356,6 +356,7 @@ h6,
   background: #fef8f5;
   border-bottom: 2px solid #fcebe3;
   margin: 72px 0 -72px 0;
+  text-align: center;
 }
 
 #hero h1 {
@@ -1357,7 +1358,6 @@ section {
 
 #footer .copyright {
   text-align: center;
-  float: left;
 }
 
 #footer .credits {
