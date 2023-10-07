@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #eb5d1e;
+  color: #7bd6d0;
   text-decoration: none;
 }
 
@@ -489,19 +489,21 @@ section {
 }
 
 .section-title h2 {
-  font-size: 24px;
+  font-family: "Poppins";
+  font-size: 32px;
   font-weight: 700;
-  padding-bottom: 0;
+  padding-bottom: 15px;
   line-height: 1px;
   margin-bottom: 15px;
   color: #7bd6d0;
 }
 
 .section-title p {
+  font-family: "Poppins";
   padding-bottom: 15px;
   margin-bottom: 15px;
   position: relative;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   color: #1a3743;
 }
@@ -512,7 +514,7 @@ section {
   display: block;
   width: 60px;
   height: 2px;
-  background: #eb5d1e;
+  background: #7bd6d0;
   bottom: 0;
   left: calc(50% - 30px);
 }
@@ -569,13 +571,15 @@ section {
 # About
 --------------------------------------------------------------*/
 .about h3 {
+  font-family: "Poppins";
   font-weight: 700;
   font-size: 34px;
   color: #1a3743;
 }
 
 .about h4 {
-  font-size: 20px;
+  font-family: "Poppins";
+  font-size: 22px;
   font-weight: 700;
   margin-top: 5px;
   color: #1a3743;
@@ -584,12 +588,12 @@ section {
 .about i {
   font-size: 48px;
   margin-top: 15px;
-  color: #f39e7a;
+  color: #7bd6d0;
 }
 
 .about p {
   font-size: 15px;
-  color: #5a6570;
+  color: #1a3743;
 }
 
 @media (max-width: 991px) {
@@ -622,14 +626,14 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-5px);
-  border-color: #ef7f4d;
+  border-color: #7bd6d0;
 }
 
 .services .icon i {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
-  color: #ef7f4d;
+  color: #7bd6d0;
 }
 
 .services .title {
@@ -639,10 +643,11 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #1a3743;
 }
 
 .services .description {
+  color: #1a3743;
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
@@ -677,7 +682,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #eb5d1e;
+  color: #7bd6d0;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -722,7 +727,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #eb5d1e;
+  color: #7bd6d0;
   margin: 0 4px;
   line-height: 0;
   background-color: #fff;
@@ -742,7 +747,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #eb5d1e;
+  background: #7bd6d0;
   color: #fff;
 }
 
@@ -804,11 +809,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #eb5d1e;
+  border: 1px solid #7bd6d0;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #eb5d1e;
+  background-color: #7bd6d0;
 }
 
 .portfolio-details .portfolio-info {
@@ -869,14 +874,14 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #eb5d1e;
+  font-family: #7bd6d0;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   font-weight: 600;
   padding-left: 25px;
   cursor: pointer;
-  color: #c54811;
+  color: #008080;
   transition: 0.3s;
 }
 
@@ -897,11 +902,11 @@ section {
 }
 
 .faq .faq-list .collapsed {
-  color: #343a40;
+  color: #1a3743;
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #eb5d1e;
+  color: #7bd6d0;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -981,7 +986,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #eb5d1e;
+  color: #7bd6d0;
 }
 
 .team .member .social i {
@@ -1027,19 +1032,19 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #eb5d1e;
+  border: 1px solid #7bd6d0;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #eb5d1e;
+  background-color: #7bd6d0;
 }
 
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #eb5d1e;
-  border-bottom: 3px solid #eb5d1e;
+  border-top: 3px solid #7bd6d0;
+  border-bottom: 3px solid #7bd6d0;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1048,11 +1053,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #eb5d1e;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdf1ec;
+  background: #7bd6d0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1072,7 +1077,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 15px;
-  color: #a08f86;
+  color: #1a3743;
 }
 
 .contact .info .social-links {
@@ -1095,21 +1100,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #eb5d1e;
+  background: #1a3743;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #eb5d1e;
+  background: #1a3743;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #eb5d1e;
-  border-bottom: 3px solid #eb5d1e;
+  border-top: 3px solid #7bd6d0;
+  border-bottom: 3px solid #7bd6d0;
   padding: 15px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1176,7 +1181,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #eb5d1e;
+  background: #7bd6d0;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1229,7 +1234,7 @@ section {
   font-size: 38px;
   text-align: center;
   display: inline-block;
-  color: #eb5d1e;
+  color: #7bd6d0;
   line-height: 0;
   padding: 4px 0;
   margin-right: 8px;
@@ -1242,7 +1247,7 @@ section {
 }
 
 #footer .footer-newsletter .social-links a:hover {
-  background: #eb5d1e;
+  background: #1a3743;
   color: #fff;
   text-decoration: none;
 }
@@ -1272,7 +1277,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #eb5d1e;
+  background: #7bd6d0;
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
@@ -1302,16 +1307,41 @@ section {
 
 #footer .footer-top .footer-contact p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 28px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #5c5c5c;
+}
+
+#footer p {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  color: #1a3743;
+}
+
+#footer .footer-top h2 {
+  font-family: "Kiona";
+  font-size: 21.5px;
+  font-weight: 600;
+  line-height: 0.5;
+  color: #7bd6d0;
+}
+
+#footer .footer-top h3 {
+  font-family: "Ace Sans";
+  font-size: 36px;
+  color: #1a3743;
+  margin: 1;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #212529;
+  color: #1a3743;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1328,7 +1358,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #f39e7a;
+  color: #7bd6d0;
   font-size: 18px;
   line-height: 1;
 }
@@ -1352,13 +1382,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #eb5d1e;
+  color: #7bd6d0;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #eb5d1e;
+  background: #7bd6d0;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1371,24 +1401,25 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ef7f4d;
+  background: #1a3743;
   color: #fff;
   text-decoration: none;
 }
 
 #footer .copyright {
   text-align: center;
+  color: #1a3743;
 }
 
 #footer .credits {
   float: right;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   color: #212529;
 }
 
 #footer .credits a {
-  color: #eb5d1e;
+  color: #7bd6d0;
 }
 
 @media (max-width: 575px) {
