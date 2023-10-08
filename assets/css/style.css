@@ -34,6 +34,18 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+@font-face {
+  font-family: AceSans;
+  src: url(../fonts/AceSans-Demo.otf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Kiona;
+  src: url(../fonts/Kiona-Regular.ttf);
+  font-display: swap;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -89,8 +101,7 @@ h6,
 }
 
 #header .logo h1 {
-  font-family: "Ace Sans";
-  src=url (\assets\vendor\icofont\fonts\AceSans-Demo.otf);
+  font-family: "AceSans";
   font-size: 36px;
   margin: 0;
   line-height: 1;
@@ -1330,7 +1341,7 @@ section {
 }
 
 #footer .footer-top h3 {
-  font-family: "Ace Sans";
+  font-family: "AceSans";
   font-size: 36px;
   color: #1a3743;
   margin: 1;
