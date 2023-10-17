@@ -56,7 +56,7 @@ h6,
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #1a3743;
+  background: #326b7c;
   width: 40px;
   height: 40px;
   border-radius: 1px 12px;
@@ -202,7 +202,7 @@ h6,
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #1a3743;
+  background: #326b7c;
 }
 
 .navbar .dropdown ul {
@@ -396,12 +396,13 @@ h6,
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #1a3743;
+  color: #326b7c;
 }
 
 #hero h2 {
   margin: 15px 0 0 0;
   font-size: 26px;
+  color: #1a3743;
 }
 
 #hero .btn-get-started {
@@ -420,7 +421,7 @@ h6,
 
 #hero .btn-get-started:hover {
   color: #fff;
-  background: #1a3743;
+  background: #326b7c;
 }
 
 #hero .animated {
@@ -586,7 +587,7 @@ section {
   font-family: "Poppins";
   font-weight: 700;
   font-size: 34px;
-  color: #1a3743;
+  color: #326b7c;
 }
 
 .about h4 {
@@ -594,7 +595,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   margin-top: 5px;
-  color: #1a3743;
+  color: #326b7c;
 }
 
 .about i {
@@ -655,7 +656,7 @@ section {
 }
 
 .services .title a {
-  color: #1a3743;
+  color: #326b7c;
 }
 
 .services .description {
@@ -1112,14 +1113,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #1a3743;
+  background: #326b7c;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #1a3743;
+  background: #326b7c;
   color: #fff;
 }
 
@@ -1239,7 +1240,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #1a3743;
+  color: #7bd6d0;
 }
 
 #footer .footer-newsletter .social-links a {
@@ -1259,7 +1260,7 @@ section {
 }
 
 #footer .footer-newsletter .social-links a:hover {
-  background: #1a3743;
+  background: #326b7c;
   color: #fff;
   text-decoration: none;
 }
@@ -1358,6 +1359,14 @@ section {
   padding-bottom: 12px;
 }
 
+#footer .footer-top h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #1a3743;
+  position: relative;
+  display: inline-block;
+}
+
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
@@ -1413,7 +1422,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1a3743;
+  background: #326b7c;
   color: #fff;
   text-decoration: none;
 }
