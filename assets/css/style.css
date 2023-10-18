@@ -712,7 +712,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(122, 105, 96, 0.3);
   position: absolute;
   left: 100%;
   right: 0;
