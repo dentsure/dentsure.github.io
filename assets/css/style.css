@@ -596,17 +596,22 @@ section {
   font-weight: 700;
   margin-top: 5px;
   color: #326b7c;
+  text-align: center;
 }
 
 .about i {
   font-size: 48px;
   margin-top: 15px;
   color: #7bd6d0;
+  text-align: center;
+  width: 100%;
+
 }
 
 .about p {
   font-size: 15px;
   color: #1a3743;
+  text-align: justify;
 }
 
 @media (max-width: 991px) {
