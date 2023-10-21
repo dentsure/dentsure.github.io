@@ -1032,12 +1032,20 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients .clients-slider .swiper-slide img {
-  opacity: 0.5;
+  opacity: 0.6;
   transition: 0.3s;
 }
 
 .clients .clients-slider .swiper-slide img:hover {
   opacity: 1;
+}
+
+.clients .clients-slider .swiper-slide a {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #1a3743;
+  text-align: center;
+  display: block;
 }
 
 .clients .clients-slider .swiper-pagination {
