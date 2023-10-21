@@ -1048,6 +1048,22 @@ section {
   display: block;
 }
 
+.clients .clients-slider .swiper-slide i {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #1a3743;
+  text-align: left;
+  display: block;
+}
+
+.clients .clients-slider .swiper-slide j {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #1a3743;
+  text-align: right;
+  display: block;
+}
+
 .clients .clients-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
