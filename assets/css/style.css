@@ -1378,6 +1378,7 @@ section {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 #footer .footer-top h4 {
