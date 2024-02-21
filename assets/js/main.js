@@ -216,11 +216,11 @@
         spaceBetween: 40
       },
       480: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 60
       },
       640: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 80
       },
       992: {
