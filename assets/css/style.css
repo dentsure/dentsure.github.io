@@ -1028,6 +1028,8 @@ section {
   transition: left ease-in-out 0.3s;
 }
 
+
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -1041,27 +1043,51 @@ section {
 }
 
 .clients .clients-slider .swiper-slide a {
+  font-style: italic;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #1a3743;
   text-align: center;
-  display: block;
+  display: inline-block;
+
+  margin: 0 15px 0 15px;
+  padding: 20px 20px 30px 20px;
+  background: #f0fafa;
+  position: relative;
+  border-radius: 2px 24px;
+
+}
+
+.clients .clients-slider .swiper-slide p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.clients .clients-slider .swiper-slide k {
+  text-align: center;
+  color: #ffc107;
+  padding: 1px;
 }
 
 .clients .clients-slider .swiper-slide i {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
-  color: #1a3743;
-  text-align: left;
-  display: block;
+  color: #7bd6d0;
+  display: inline-block;
+  left: -15px;
+  position: relative;
 }
 
 .clients .clients-slider .swiper-slide j {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
-  color: #1a3743;
-  text-align: right;
-  display: block;
+  color: #7bd6d0;
+  display: inline-block;
+  right: -15px;
+  position: relative;
 }
 
 .clients .clients-slider .swiper-pagination {
@@ -1080,6 +1106,7 @@ section {
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #7bd6d0;
 }
+
 
 /*--------------------------------------------------------------
 # Contact Us
