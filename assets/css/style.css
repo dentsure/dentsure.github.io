@@ -871,6 +871,99 @@ section {
   padding: 0;
 }
 
+
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: #7bd6d0;
+  padding: 80px 0;
+}
+
+.cta h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta h4 {
+
+  color: #1a3743;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+.cta p {
+  color: #fff;
+}
+
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.cta .cta-btn:hover {
+  background: #1a3743;
+  color: #7bd6d0;
+}
+
+.cta-btn i {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0 10px 0 -10px;
+  }
+
+@media (max-width: 1024px) {
+  .cta {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 20px;
+  border: 2px solid #a4c639;
+  color: #a4c639;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #a4c639;
+  color: #fff;
+}
+
+.btn i {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0 10px 0 -10px;
+  }
+
+
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
