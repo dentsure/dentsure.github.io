@@ -1,0 +1,12 @@
+# Allow all web crawlers to access all content
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /wp-admin/  # If using WordPress, disallow the admin section
+
+# Allow access to other areas
+Allow: /
+
+# Specify the location of the sitemap
+Sitemap: https://dentsure.in/sitemap.xml
