@@ -1365,6 +1365,50 @@ section {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Social
+--------------------------------------------------------------*/
+
+.social .social-linkss a {
+  font-size: 38px;
+  text-align: center;
+  display: inline-block;
+  color: #7bd6d0;
+  line-height: 0;
+  padding: 2px 0;
+  margin-right: 8px;
+  margin-top: 12px;
+  border-radius: 50%;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  transition: 0.3s;
+}
+
+.social .social-linkss a:hover {
+  background: #326b7c;
+  color: #fff;
+  text-decoration: none;
+}
+
+#social p {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 300;
+  color: #1a3743;
+}
+
+#social h2 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #7bd6d0;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
