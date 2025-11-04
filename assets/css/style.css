@@ -1374,6 +1374,7 @@ section {
   color: #212529;
   font-size: 14px;
   background: #fef8f5;
+  position: relative;
 }
 
 #footer .footer-newsletter {
